@@ -66,13 +66,37 @@
             // 
             // testControl1
             // 
+            this.testControl1.CustomColorName = "Red";
+            this.testControl1.Decimals.Add(new decimal(new int[] {
+                76453,
+                0,
+                0,
+                196608}));
+            this.testControl1.Decimals.Add(new decimal(new int[] {
+                326567,
+                0,
+                0,
+                262144}));
+            this.testControl1.DecimalValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.testControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.testControl1.FileExtension = SampleControls.ImageFileExtension.png;
+            this.testControl1.FileSystemPath = "C:\\";
+            this.testControl1.ImageTypes = SampleControls.ImageTypes.Happy;
             this.testControl1.Location = new System.Drawing.Point(0, 0);
             this.testControl1.Margin = new System.Windows.Forms.Padding(2);
+            this.testControl1.ModalTestValue = "Testing that the text is serialized";
             this.testControl1.Name = "testControl1";
+            this.testControl1.ResourcePath = "TestControl";
+            this.testControl1.Scrollbars = ((SampleControls.ScrollBars)((SampleControls.ScrollBars.Vertical | SampleControls.ScrollBars.Horizontal)));
             this.testControl1.Size = new System.Drawing.Size(647, 180);
+            this.testControl1.Strings.Add("First Value");
+            this.testControl1.Strings.Add("Second Value");
             this.testControl1.TabIndex = 0;
+            this.testControl1.TestDate = new System.DateTime(2025, 7, 7, 18, 43, 0, 0);
             // 
             // Form1
             // 

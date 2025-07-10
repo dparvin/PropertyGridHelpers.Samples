@@ -219,5 +219,25 @@ namespace SampleControls
                 _display.Text = _expression;
             }
         }
+
+        /// <summary>
+        /// Gets or sets the type descriptor context in which the control is being used.
+        /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public ITypeDescriptorContext Context
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the culture to use for localization or formatting.
+        /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public CultureInfo Culture
+        {
+            get;
+            set;
+        }
     }
 }

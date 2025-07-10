@@ -77,7 +77,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="PropertyGridHelpers" Version="2025.7.6.2" />
+    <PackageReference Include="PropertyGridHelpers" Version="2025.7.9.1" />
     <PackageReference Include="Versioning.Common" Version="1.0.15" />
   </ItemGroup>
 

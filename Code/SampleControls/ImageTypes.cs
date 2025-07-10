@@ -11,23 +11,26 @@ namespace SampleControls
         /// <summary>
         /// The no image displayed
         /// </summary>
-        [EnumText("None")]
+        [LocalizedEnumText("None")]
         None,
         /// <summary>
         /// A Happy Image
         /// </summary>
+        [LocalizedEnumText("ImageTypes_Happy")]
         [EnumText("A Happy Image")]
         [EnumImage("Happy", PropertyGridHelpers.Enums.ImageLocation.Resource)]
         Happy,
         /// <summary>
         /// A Neutral Image
         /// </summary>
+        [LocalizedEnumText("ImageTypes_Neutral")]
         [EnumText("A Neutral Image")]
         [EnumImage("Neutral", PropertyGridHelpers.Enums.ImageLocation.Resource)]
         Neutral,
         /// <summary>
         /// A Sad Image
         /// </summary>
+        [LocalizedEnumText("ImageTypes_Sad")]
         [EnumText("A Sad Image")]
         [EnumImage("Sad", PropertyGridHelpers.Enums.ImageLocation.Resource)]
         Sad,

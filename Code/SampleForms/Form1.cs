@@ -15,7 +15,7 @@ namespace SampleForms
         {
             InitializeComponent();
 
-            //Support.SetLanguage("fr");
+            PropertyGridHelpers.Support.Support.SetLanguage("fr");
 
             propertyGrid1.SelectedObject = testControl1;
         }
